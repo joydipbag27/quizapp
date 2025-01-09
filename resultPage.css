@@ -137,7 +137,10 @@ body{
   }
   .outOf-counter{
     left: 44%;
-}
+  }
+  .icon {
+    font-size: 6.7vw;
+  }  
 }
 
 
