@@ -25,7 +25,7 @@ body {
 }
 .game-page-question-number {
   display: flex;
-  justify-self: right;
+  justify-self: flex-end;
   text-align: right;
   background-color: #fec33d;
   padding: 0.5vh 0.5vw;
@@ -40,7 +40,7 @@ body {
 }
 .timer {
   display: flex;
-  justify-self: right;
+  justify-self: flex-end;
   text-align: right;
   background-color: #02a40a78;
   color: #fff;
@@ -116,7 +116,7 @@ body {
 
 .next {
   display: flex;
-  justify-self: right;
+  justify-self: flex-end;
   text-align: right;
   padding: 1vw;
   cursor: pointer;
