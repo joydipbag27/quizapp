@@ -25,7 +25,7 @@ body {
 }
 .game-page-question-number {
   display: flex;
-  justify-self: end;
+  justify-self: right;
   background-color: #fec33d;
   padding: 0.5vh 0.5vw;
   border-radius: 10px;
@@ -39,7 +39,7 @@ body {
 }
 .timer {
   display: flex;
-  justify-self: end;
+  justify-self: right;
   background-color: #02a40a78;
   color: #fff;
   padding: 0.5vh 0.5vw;
@@ -86,7 +86,7 @@ body {
   display: none;
 }
 
-.timeUp{
+.timeUp {
   position: absolute;
   padding: 5vh 4vw;
   /* width: 23vw; */
@@ -104,17 +104,17 @@ body {
   transition: scale 0.2s;
   scale: 0;
 }
-.timeUp-show{
+.timeUp-show {
   scale: 1;
 }
-.timeUp img{
+.timeUp img {
   height: 200px;
   width: 200px;
 }
 
 .next {
   display: flex;
-  justify-self: end;
+  justify-self: right;
   padding: 1vw;
   cursor: pointer;
   color: #01ab08;
@@ -127,23 +127,23 @@ body {
   text-align: center;
 }
 
-@media (max-width: 768px){
-  .header{
+@media (max-width: 768px) {
+  .header {
     height: 7%;
   }
-  .question-tab{
+  .question-tab {
     padding: 3vh;
   }
-  .timer{
+  .timer {
     padding: 0.5vh 2vw;
   }
-  .option-tab{
+  .option-tab {
     padding: 2vh 4vw;
   }
-  .options{
+  .options {
     padding: 2vh 2vw;
   }
-  .footer{
+  .footer {
     height: 3%;
     font-size: 1.2vh;
   }
@@ -203,18 +203,15 @@ body {
   }
 }
 
-
-
-
 .cta {
   display: flex;
   padding: 2vh 1vw;
   text-decoration: none;
   font-size: 25px;
   color: white;
-  background: #35BD3A;
+  background: #35bd3a;
   transition: 1s;
-  box-shadow: 6px 6px 0 #01AB08;
+  box-shadow: 6px 6px 0 #01ab08;
   transform: skewX(-15deg);
   border: none;
   cursor: pointer;
@@ -287,6 +284,3 @@ body {
     fill: white;
   }
 }
-
-
-
